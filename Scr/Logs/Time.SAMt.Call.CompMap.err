@@ -1,0 +1,67 @@
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+Note: none of --samples-file, --ploidy or --ploidy-file given, assuming all sites are diploid
+[mpileup] 1 samples in 1 input files
+[mpileup] 1 samples in 1 input files
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+[mpileup] maximum number of reads per input file set to -d 250
+	Command being timed: "bash SAMt.Call.CompMap.sh YPS128 DBVPG6765 /home/ltattini/prog/aa-muloydh/bwa-r1"
+	User time (seconds): 3539.13
+	System time (seconds): 88.81
+	Percent of CPU this job got: 462%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:04.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 46028
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 250812
+	Voluntary context switches: 3910989
+	Involuntary context switches: 3030
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8304
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

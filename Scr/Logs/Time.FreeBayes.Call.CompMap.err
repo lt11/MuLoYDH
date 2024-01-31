@@ -1,0 +1,23 @@
+	Command being timed: "bash FreeBayes.Call.CompMap.sh YPS128 DBVPG6765 /home/ltattini/prog/aa-muloydh/bwa-r1"
+	User time (seconds): 1627.74
+	System time (seconds): 35.46
+	Percent of CPU this job got: 377%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:20.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 39908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 176706
+	Voluntary context switches: 1227
+	Involuntary context switches: 1906
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 152912
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

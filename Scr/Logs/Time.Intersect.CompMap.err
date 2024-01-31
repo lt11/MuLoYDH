@@ -1,0 +1,38 @@
+Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/SAMt/A887R46.YPS128+DBVPG6765.vcf.gz, the tabix index may be broken.
+ at /opt/tvs/bin/vcf-isec line 21.
+	main::error("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 90
+	main::__ANON__("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 289
+	main::vcf_isec(HASH(0x5589055ad4f8)) called at /opt/tvs/bin/vcf-isec line 12
+Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Unphased/SAMt/A887R48.DBVPG6765.vcf.gz, the tabix index may be broken.
+ at /opt/tvs/bin/vcf-isec line 21.
+	main::error("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 90
+	main::__ANON__("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 289
+	main::vcf_isec(HASH(0x555a91b824f8)) called at /opt/tvs/bin/vcf-isec line 12
+Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Unphased/SAMt/A887R46.DBVPG6765.vcf.gz, the tabix index may be broken.
+ at /opt/tvs/bin/vcf-isec line 21.
+	main::error("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 90
+	main::__ANON__("Warning: Read 0 lines from /home/ltattini/prog/aa-muloydh/bwa"...) called at /opt/tvs/bin/vcf-isec line 289
+	main::vcf_isec(HASH(0x559d193c54f8)) called at /opt/tvs/bin/vcf-isec line 12
+	Command being timed: "bash Intersect.CompMap.sh YPS128 DBVPG6765 /home/ltattini/prog/aa-muloydh/bwa-r1"
+	User time (seconds): 6.49
+	System time (seconds): 5.01
+	Percent of CPU this job got: 655%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10688
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 450543
+	Voluntary context switches: 7461
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

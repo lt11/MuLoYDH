@@ -1,0 +1,1 @@
+In questa versione il bed che contiene le regioni (da chiamare unphased) per SAMt.Call.CompMap.sh viene usato per fare un altro bed con un solo assembly. Quest'ultimo viene usato per leggere le regioni.

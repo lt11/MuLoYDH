@@ -1,0 +1,68 @@
+Scanning file to determine attributes.
+File attributes:
+  meta lines: 122
+  header_line: 123
+  variant count: 504
+  column count: 10
+Meta line 122 read in.
+All meta lines processed.
+gt matrix initialized.
+Character matrix gt created.
+  Character matrix gt rows: 504
+  Character matrix gt cols: 10
+  skip: 0
+  nrows: 504
+  row_num: 0
+Processed variant: 504
+All variants processed
+Scanning file to determine attributes.
+File attributes:
+  meta lines: 124
+  header_line: 125
+  variant count: 197
+  column count: 10
+Meta line 124 read in.
+All meta lines processed.
+gt matrix initialized.
+Character matrix gt created.
+  Character matrix gt rows: 197
+  Character matrix gt cols: 10
+  skip: 0
+  nrows: 197
+  row_num: 0
+Processed variant: 197
+All variants processed
+Scanning file to determine attributes.
+File attributes:
+  meta lines: 124
+  header_line: 125
+  variant count: 181
+  column count: 10
+Meta line 124 read in.
+All meta lines processed.
+gt matrix initialized.
+Character matrix gt created.
+  Character matrix gt rows: 181
+  Character matrix gt cols: 10
+  skip: 0
+  nrows: 181
+  row_num: 0
+Processed variant: 181
+All variants processed
+Scanning file to determine attributes.
+File attributes:
+  meta lines: 124
+  header_line: 125
+  variant count: 165
+  column count: 10
+Meta line 124 read in.
+All meta lines processed.
+gt matrix initialized.
+Character matrix gt created.
+  Character matrix gt rows: 165
+  Character matrix gt cols: 10
+  skip: 0
+  nrows: 165
+  row_num: 0
+Processed variant: 165
+All variants processed

@@ -1,0 +1,2249 @@
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Command: 'ann'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	done
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:02	done
+00:00:02	Loading Motifs and PWMs
+00:00:02	Building interval forest
+00:00:02	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:02	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:02	done
+00:00:02	Loading Motifs and PWMs
+00:00:02	Building interval forest
+00:00:02	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:02	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'I'
+00:00:02	done.
+00:00:02	Genome stats :
+00:00:02	Building sequence tree for chromosome 'I'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 93 sequences.
+00:00:02	Creating sequences from exon information 'III'
+00:00:02	Building sequence tree for chromosome 'III'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 159 sequences.
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'IX'
+00:00:02	Creating summary file: A887R46.WE.Summary.html
+00:00:02	Building sequence tree for chromosome 'IX'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 207 sequences.
+00:00:02	Creating sequences from exon information 'XI'
+00:00:02	Building sequence tree for chromosome 'XI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 322 sequences.
+00:00:02	Creating sequences from exon information 'XIII'
+00:00:02	Creating sequences from exon information 'III'
+00:00:02	Building sequence tree for chromosome 'III'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 155 sequences.
+00:00:02	Building sequence tree for chromosome 'XIII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 456 sequences.
+00:00:02	Creating sequences from exon information 'IV'
+00:00:02	Creating sequences from exon information 'XVI'
+00:00:02	Building sequence tree for chromosome 'XVI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 464 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	20
+
+
+00:00:02	Creating summary file: A887R46.WE.Summary.html
+00:00:02	Building sequence tree for chromosome 'IV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 741 sequences.
+00:00:02	done.
+00:00:02	Genome stats :
+00:00:02	Creating sequences from exon information 'V'
+00:00:02	Building sequence tree for chromosome 'V'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 271 sequences.
+00:00:02	Creating sequences from exon information 'VI'
+00:00:02	Building sequence tree for chromosome 'VI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 121 sequences.
+00:00:02	Creating sequences from exon information 'VII'
+00:00:03	Building sequence tree for chromosome 'VII'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 515 sequences.
+00:00:03	Creating sequences from exon information 'IX'
+00:00:03	Building sequence tree for chromosome 'IX'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 210 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	2
+
+
+00:00:03	Creating summary file: A887R46.NA.Summary.html
+00:00:03	Creating genes file: ./A887R46.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:03	Predicting variants
+00:00:03	Creating sequences from exon information 'I'
+00:00:03	Building sequence tree for chromosome 'I'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 93 sequences.
+00:00:03	Creating genes file: ./A887R46.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	4
+
+
+00:00:03	Creating summary file: A887R46.WE.Summary.html
+00:00:03	Creating genes file: ./A887R46.NA.Summary.genes.txt
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:03	Predicting variants
+00:00:03	done.
+00:00:03	Creating summary file: A887R46.NA.Summary.html
+00:00:03	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:03	Predicting variants
+00:00:03	Creating sequences from exon information 'I'
+00:00:03	Building sequence tree for chromosome 'I'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 93 sequences.
+00:00:03	Creating genes file: ./A887R46.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Creating sequences from exon information 'IV'
+00:00:03	Logging
+00:00:03	Creating genes file: ./A887R46.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:03	Building sequence tree for chromosome 'IV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 741 sequences.
+00:00:03	Creating sequences from exon information 'VII'
+00:00:03	Building sequence tree for chromosome 'VII'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 515 sequences.
+00:00:03	Creating sequences from exon information 'IX'
+00:00:03	Building sequence tree for chromosome 'IX'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 210 sequences.
+00:00:04	Creating sequences from exon information 'XVI'
+00:00:04	Building sequence tree for chromosome 'XVI'
+00:00:04	Building sequence tree for genome sequences
+00:00:04	Done.
+00:00:04	Done. Loaded 460 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	8
+
+
+00:00:04	Creating summary file: A887R46.NA.Summary.html
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:04	Creating genes file: ./A887R46.NA.Summary.genes.txt
+00:00:04	done.
+00:00:04	Logging
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:05	Done.
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:05	Checking for updates...
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:05	Done.
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:06	Done.
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:02	Creating sequences from exon information 'XIII'
+00:00:02	Building sequence tree for chromosome 'XIII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 456 sequences.
+00:00:02	Creating summary file: A887R47.WE.Summary.html
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'I'
+00:00:02	Building sequence tree for chromosome 'I'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 93 sequences.
+00:00:02	Creating sequences from exon information 'III'
+00:00:02	Building sequence tree for chromosome 'III'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 159 sequences.
+00:00:02	Creating sequences from exon information 'IV'
+00:00:02	Building sequence tree for chromosome 'IV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 737 sequences.
+00:00:02	Creating sequences from exon information 'V'
+00:00:02	Building sequence tree for chromosome 'V'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 270 sequences.
+00:00:03	Creating genes file: ./A887R47.WE.Summary.genes.txt
+00:00:03	Creating sequences from exon information 'XI'
+00:00:03	done.
+00:00:03	Logging
+00:00:03	Building sequence tree for chromosome 'XI'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 322 sequences.
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:03	Creating sequences from exon information 'XV'
+00:00:03	Building sequence tree for chromosome 'XV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 517 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	20
+
+
+00:00:03	Creating summary file: A887R47.WE.Summary.html
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:03	Predicting variants
+00:00:03	Creating sequences from exon information 'VII'
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:03	Building sequence tree for chromosome 'VII'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 515 sequences.
+00:00:03	Creating sequences from exon information 'XI'
+00:00:03	Building sequence tree for chromosome 'XI'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 322 sequences.
+00:00:03	Creating summary file: A887R47.NA.Summary.html
+00:00:02	Creating summary file: A887R47.NA.Summary.html
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating summary file: A887R47.WE.Summary.html
+00:00:03	Creating genes file: ./A887R47.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:03	Creating genes file: ./A887R47.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:03	Creating genes file: ./A887R47.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'I'
+00:00:02	Building sequence tree for chromosome 'I'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 93 sequences.
+00:00:03	Creating genes file: ./A887R47.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Creating sequences from exon information 'VII'
+00:00:04	Checking for updates...
+00:00:02	Building sequence tree for chromosome 'VII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 515 sequences.
+00:00:02	Creating sequences from exon information 'XI'
+00:00:02	Building sequence tree for chromosome 'XI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 322 sequences.
+00:00:02	Creating sequences from exon information 'XV'
+00:00:02	Building sequence tree for chromosome 'XV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 511 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	2
+
+
+00:00:02	Creating summary file: A887R47.NA.Summary.html
+00:00:03	Creating genes file: ./A887R47.NA.Summary.genes.txt
+00:00:04	Checking for updates...
+00:00:03	done.
+00:00:03	Logging
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:04	Checking for updates...
+00:00:05	Done.
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:05	Done.
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating summary file: A887R48.WE.Summary.html
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:02	Creating genes file: ./A887R48.WE.Summary.genes.txt
+00:00:02	done.
+00:00:02	Logging
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'I'
+00:00:02	Building sequence tree for chromosome 'I'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 93 sequences.
+00:00:02	Creating sequences from exon information 'VI'
+00:00:02	Building sequence tree for chromosome 'VI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 112 sequences.
+00:00:02	Creating sequences from exon information 'XI'
+00:00:02	Building sequence tree for chromosome 'XI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 322 sequences.
+00:00:02	Creating sequences from exon information 'XIII'
+00:00:02	Building sequence tree for chromosome 'XIII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 456 sequences.
+00:00:02	Creating sequences from exon information 'XIV'
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Building sequence tree for chromosome 'XIV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 391 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	17
+
+
+00:00:02	Creating summary file: A887R48.WE.Summary.html
+00:00:02	Creating sequences from exon information 'III'
+00:00:02	Building sequence tree for chromosome 'III'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 155 sequences.
+00:00:02	Creating summary file: A887R48.NA.Summary.html
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'XIV'
+00:00:03	Checking for updates...
+00:00:02	Building sequence tree for chromosome 'XIV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 384 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	8
+
+
+00:00:02	Creating summary file: A887R48.NA.Summary.html
+00:00:02	Creating genes file: ./A887R48.NA.Summary.genes.txt
+00:00:02	done.
+00:00:02	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'VI'
+00:00:02	Building sequence tree for chromosome 'VI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 112 sequences.
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:03	Creating sequences from exon information 'XIV'
+00:00:03	Creating genes file: ./A887R48.WE.Summary.genes.txt
+00:00:03	Building sequence tree for chromosome 'XIV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 391 sequences.
+00:00:03	Creating summary file: A887R48.WE.Summary.html
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Creating sequences from exon information 'V'
+00:00:02	Building sequence tree for chromosome 'V'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 271 sequences.
+00:00:02	Creating sequences from exon information 'VII'
+00:00:02	Building sequence tree for chromosome 'VII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 515 sequences.
+00:00:03	Creating genes file: ./A887R48.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Creating sequences from exon information 'XV'
+00:00:02	Building sequence tree for chromosome 'XV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 511 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+WARNING_TRANSCRIPT_NO_START_CODON	50
+
+
+00:00:02	Creating summary file: A887R48.NA.Summary.html
+00:00:03	Creating genes file: ./A887R48.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Creating genes file: ./A887R48.NA.Summary.genes.txt
+00:00:04	Done.
+00:00:03	done.
+00:00:03	Logging
+00:00:03	Checking for updates...
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:04	Checking for updates...
+00:00:04	Done.
+00:00:05	Done.
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy2/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:05	Done.
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_DBVPG6765.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Merged/Regions/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:00	SnpEff version SnpEff 4.3t (build 2017-11-24 10:18), by Pablo Cingolani
+00:00:00	Command: 'ann'
+00:00:00	Reading configuration file 'snpEff.config'. Genome: 'Saccharomyces_cerevisiae_YPS128.1'
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/VariantCalls/Ploidy1/Intersect/snpEff.config
+00:00:00	Reading config file: /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.config
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'XI'
+00:00:02	Building sequence tree for chromosome 'XI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 322 sequences.
+00:00:02	Creating summary file: A887R49.WE.Summary.html
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:02	Creating genes file: ./A887R49.WE.Summary.genes.txt
+00:00:02	done.
+00:00:02	Logging
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_DBVPG6765.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_DBVPG6765.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:00	done
+00:00:00	Reading database for genome version 'Saccharomyces_cerevisiae_YPS128.1' from file '/home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/./data/Saccharomyces_cerevisiae_YPS128.1/snpEffectPredictor.bin' (this might take a while)
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:3861-1424219
+	New gene    :Gene_I:-211635-1208723
+	Chrsomosome :Chromosome_I:1-215496
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:01	done
+00:00:01	Loading Motifs and PWMs
+00:00:01	Building interval forest
+00:00:01	Gene 'null' spans across coordinate zero: Assuming circular chromosome, creating mirror gene at the end.
+	Gene        :Gene_I:10285-1424450
+	New gene    :Gene_I:-227376-1186789
+	Chrsomosome :Chromosome_I:1-237661
+00:00:01	Total: 1 added as circular mirrored genes (appended '_circ' to IDs).
+00:00:03	Checking for updates...
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:01	done.
+00:00:01	Genome stats :
+00:00:02	Creating sequences from exon information 'II'
+00:00:02	Building sequence tree for chromosome 'II'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 408 sequences.
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'III'
+00:00:02	Creating summary file: A887R49.NA.Summary.html
+00:00:02	Building sequence tree for chromosome 'III'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 159 sequences.
+00:00:02	Creating sequences from exon information 'V'
+00:00:02	Building sequence tree for chromosome 'V'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 270 sequences.
+00:00:02	Creating sequences from exon information 'XIII'
+00:00:02	Building sequence tree for chromosome 'XIII'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 456 sequences.
+00:00:02	Creating sequences from exon information 'XIV'
+00:00:02	Building sequence tree for chromosome 'XIV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 391 sequences.
+00:00:02	Creating sequences from exon information 'XV'
+00:00:02	Building sequence tree for chromosome 'XV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 517 sequences.
+00:00:02	Creating sequences from exon information 'XVI'
+00:00:02	Building sequence tree for chromosome 'XVI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 464 sequences.
+00:00:02	Creating summary file: A887R49.WE.Summary.html
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:02	Creating sequences from exon information 'IV'
+00:00:02	Building sequence tree for chromosome 'IV'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 741 sequences.
+00:00:02	Creating summary file: A887R49.NA.Summary.html
+00:00:03	Creating genes file: ./A887R49.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_DBVPG6765'
+# Genome version             : 'Saccharomyces_cerevisiae_DBVPG6765.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_DBVPG6765.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5541
+# Protein coding genes       : 5541
+#-----------------------------------------------
+# Transcripts                : 6089
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6089
+#              Length errors :      1 ( 0.02% )
+#  STOP codons in CDS errors :      1 ( 0.02% )
+#         START codon errors :    550 ( 9.03% )
+#        STOP codon warnings :    550 ( 9.03% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    551 ( 9.05% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5759
+# Exons                      : 5759
+# Exons with sequence        : 5759
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1488087	Standard
+#		'XV'	1120088	Standard
+#		'VII'	1070236	Standard
+#		'XII'	1022186	Standard
+#		'XVI'	920208	Standard
+#		'XIII'	913017	Standard
+#		'II'	795659	Standard
+#		'XIV'	765110	Standard
+#		'X'	730957	Standard
+#		'XI'	657417	Standard
+#		'V'	576784	Standard
+#		'VIII'	533397	Standard
+#		'IX'	419821	Standard
+#		'III'	327289	Standard
+#		'VI'	257436	Standard
+#		'I'	215496	Standard
+#		'MT'	81722	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:03	Creating genes file: ./A887R49.WE.Summary.genes.txt
+00:00:02	Creating sequences from exon information 'XI'
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Building sequence tree for chromosome 'XI'
+00:00:02	Building sequence tree for genome sequences
+00:00:02	Done.
+00:00:02	Done. Loaded 322 sequences.
+00:00:02	Creating summary file: A887R49.WE.Summary.html
+00:00:04	Done.
+00:00:03	Creating genes file: ./A887R49.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+#-----------------------------------------------
+# Genome name                : 'Saccharomyces_cerevisiae_YPS128'
+# Genome version             : 'Saccharomyces_cerevisiae_YPS128.1'
+# Genome ID                  : 'Saccharomyces_cerevisiae_YPS128.1[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5539
+# Protein coding genes       : 5539
+#-----------------------------------------------
+# Transcripts                : 6087
+# Avg. transcripts per gene  : 1.10
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :      0 ( 0.00% )
+#              DNA sequences :      0 ( 0.00% )
+#-----------------------------------------------
+# Protein coding transcripts : 6087
+#              Length errors :      0 ( 0.00% )
+#  STOP codons in CDS errors :      0 ( 0.00% )
+#         START codon errors :    550 ( 9.04% )
+#        STOP codon warnings :    550 ( 9.04% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :    550 ( 9.04% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 5755
+# Exons                      : 5755
+# Exons with sequence        : 5755
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 0.95
+# WARNING!                   : Mitochondrion chromosome 'MT' does not have a mitochondrion codon table (codon table = 'Standard'). You should update the config file.
+#-----------------------------------------------
+# Number of chromosomes      : 17
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'IV'	1495051	Standard
+#		'VII'	1082279	Standard
+#		'XV'	1072763	Standard
+#		'XII'	1027157	Standard
+#		'XVI'	932263	Standard
+#		'XIII'	928527	Standard
+#		'II'	808481	Standard
+#		'XIV'	766731	Standard
+#		'X'	723414	Standard
+#		'XI'	667446	Standard
+#		'V'	575962	Standard
+#		'VIII'	543240	Standard
+#		'IX'	440919	Standard
+#		'III'	319304	Standard
+#		'VI'	289276	Standard
+#		'I'	237661	Standard
+#		'MT'	77479	Standard
+#-----------------------------------------------
+
+00:00:02	Predicting variants
+00:00:03	Creating genes file: ./A887R49.WE.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:02	Creating sequences from exon information 'IV'
+00:00:03	Building sequence tree for chromosome 'IV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 741 sequences.
+00:00:03	Creating sequences from exon information 'VII'
+00:00:03	Building sequence tree for chromosome 'VII'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 515 sequences.
+00:00:03	Creating sequences from exon information 'XI'
+00:00:03	Building sequence tree for chromosome 'XI'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 322 sequences.
+00:00:03	Creating sequences from exon information 'XIII'
+00:00:03	Building sequence tree for chromosome 'XIII'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 459 sequences.
+00:00:03	Creating sequences from exon information 'XIV'
+00:00:03	Building sequence tree for chromosome 'XIV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 384 sequences.
+00:00:03	Creating sequences from exon information 'XV'
+00:00:03	Building sequence tree for chromosome 'XV'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 511 sequences.
+00:00:03	Creating sequences from exon information 'XVI'
+00:00:03	Building sequence tree for chromosome 'XVI'
+00:00:03	Building sequence tree for genome sequences
+00:00:03	Done.
+00:00:03	Done. Loaded 460 sequences.
+00:00:03	Creating summary file: A887R49.NA.Summary.html
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:03	Creating genes file: ./A887R49.NA.Summary.genes.txt
+00:00:03	done.
+00:00:03	Logging
+00:00:04	Checking for updates...
+00:00:04	Checking for updates...
+00:00:05	Done.
+00:00:05	Done.
+00:00:04	Checking for updates...
+00:00:05	Done.
+00:00:05	Done.
+00:00:05	Done.
+	Command being timed: "bash SnpEff.CompMap.sh YPS128 DBVPG6765 NA WE /home/ltattini/prog/aa-muloydh/bwa-r1/Lib/snpEff/snpEff.jar /home/ltattini/prog/aa-muloydh/bwa-r1"
+	User time (seconds): 313.16
+	System time (seconds): 86.32
+	Percent of CPU this job got: 1653%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 661388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4709872
+	Voluntary context switches: 571309
+	Involuntary context switches: 2664
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 7536
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,91 @@
+# path to an updated repository folder of MuLo
+RepDir="/.../MuLoYDH/Rep"
+
+# building snpEff: set folder of snpEff directory
+BaseDir="/.../MuLoYDH/Lib"
+
+if [[ ! -d $BaseDir ]]; then
+  mkdir -p $BaseDir
+fi
+
+cd $BaseDir
+rm -rf snpEff_latest_core.zip snpEff clinEff
+wget http://sourceforge.net/projects/snpeff/files/snpEff_latest_core.zip
+unzip snpEff_latest_core.zip
+
+# building the DBs
+
+### manual edit: vi snpEff/snpEff.config
+
+# Saccharomyces cerevisiae strain DBVPG6044 genome, version 1
+Saccharomyces_cerevisiae_DBVPG6044.1.genome : Saccharomyces_cerevisiae_DBVPG6044
+
+# Saccharomyces cerevisiae strain DBVPG6765 genome, version 1
+Saccharomyces_cerevisiae_DBVPG6765.1.genome : Saccharomyces_cerevisiae_DBVPG6765
+
+# Saccharomyces cerevisiae strain S288C genome, version 1
+Saccharomyces_cerevisiae_S288C.1.genome : Saccharomyces_cerevisiae_S288C
+
+# Saccharomyces cerevisiae strain SK1 genome, version 1
+Saccharomyces_cerevisiae_SK1.1.genome : Saccharomyces_cerevisiae_SK1
+
+# Saccharomyces cerevisiae strain UWOPS034614 genome, version 1
+Saccharomyces_cerevisiae_UWOPS034614.1.genome : Saccharomyces_cerevisiae_UWOPS034614
+
+# Saccharomyces cerevisiae strain Y12 genome, version 1
+Saccharomyces_cerevisiae_Y12.1.genome : Saccharomyces_cerevisiae_Y12
+
+# Saccharomyces cerevisiae strain YPS128 genome, version 1
+Saccharomyces_cerevisiae_YPS128.1.genome : Saccharomyces_cerevisiae_YPS128
+
+# Saccharomyces cerevisiae strain SGD genome, version R64-1-1
+Saccharomyces_cerevisiae_SGD.1.genome : Saccharomyces_cerevisiae_SGD
+
+# Saccharomyces cerevisiae strain YGL3210 genome, version 1
+Saccharomyces_cerevisiae_YGL3210.1.genome : Saccharomyces_cerevisiae_YGL3210
+
+# Saccharomyces paradoxus strain CBS432 genome, version 1
+Saccharomyces_paradoxus_CBS432.1.genome : Saccharomyces_paradoxus_CBS432
+
+# Saccharomyces paradoxus strain N17 genome, version 1
+Saccharomyces_paradoxus_N17.1.genome : Saccharomyces_paradoxus_N17
+
+# Saccharomyces paradoxus strain YPS138 genome, version 1
+Saccharomyces_paradoxus_YPS138.1.genome : Saccharomyces_paradoxus_YPS138
+
+# Saccharomyces paradoxus strain UWOPS919171 genome, version 1
+Saccharomyces_paradoxus_UWOPS919171.1.genome : Saccharomyces_paradoxus_UWOPS919171
+
+# Saccharomyces paradoxus strain N44 genome, version 1
+Saccharomyces_paradoxus_N44.1.genome : Saccharomyces_paradoxus_N44
+
+# Saccharomyces paradoxus strain UFRJ50816 genome, version 1
+Saccharomyces_paradoxus_UFRJ50816.1.genome : Saccharomyces_paradoxus_UFRJ50816
+
+AllStrain="YGL3210 N44 CBS432 DBVPG6044 DBVPG6765 S288C SK1 UFRJ50816 UWOPS034614 UWOPS919171 Y12 YPS128 YPS138 SGD N17"
+for Strain in $AllStrain
+do
+  # tutte le versioni dei genomi di un ceppo
+  AllVersions=$(grep $Strain $BaseDir/snpEff/snpEff.config | grep -v ^# | cut -d" " -f1 | sed 's|\.genome$||')
+  for ID in $AllVersions
+  do
+    if [[ ! -d $BaseDir/snpEff/data/$ID ]]; then
+      mkdir -p $BaseDir/snpEff/data/$ID
+    fi
+    cd $BaseDir/snpEff/data/$ID
+    cp $RepDir/Ann/$Strain.all_feature.gff .
+    mv -f $Strain.all_feature.gff genes.gff
+    
+    if [[ ! -d $BaseDir/snpEff/data/genomes ]]; then
+      mkdir -p $BaseDir/snpEff/data/genomes
+    fi
+    cd $BaseDir/snpEff/data/genomes
+    cp $RepDir/Asm/$Strain.genome.fa .
+    mv -f $Strain.genome.fa $ID.fa
+    
+    cd $BaseDir/snpEff
+    java -jar snpEff.jar build -gff3 -v $ID
+  done
+done
+
+

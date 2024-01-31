@@ -1,0 +1,19 @@
+[general]
+
+chrLenFile = STRINGchrLenFile
+ploidy = 2 
+chrFiles = STRINGchrFiles
+telocentromeric = 4000
+coefficientOfVariation = 0.05
+maxThreads = 4 
+gemMappabilityFile = STRINGgemMappabilityFile
+outputDir = STRINGoutputDir
+
+[sample]
+
+mateFile = STRINGmateFile
+inputFormat = BAM
+mateOrientation = 0
+
+[control]
+

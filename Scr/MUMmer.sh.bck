@@ -1,0 +1,47 @@
+#!/bin/bash
+
+Ref1Label=$1
+Ref2Label=$2
+BaseDir=$3
+
+# reference 1
+
+RefPair12=$Ref1Label"_"$Ref2Label
+RefDir=${BaseDir}"/Ref"
+OutDir12=${BaseDir}"/MUMmer/$RefPair12"
+
+if [[ ! -d $OutDir12 ]]; then
+    mkdir -p $OutDir12
+fi
+
+cd $OutDir12
+
+nucmer --prefix=$RefPair12 $RefDir/$Ref1Label.genome.fa $RefDir/$Ref2Label.genome.fa
+
+show-snps -ClrIT $RefPair12.delta > $RefPair12.prt.snps
+
+# make header file for Marker.Intersect.R (used for appending results)
+head -4 $RefPair12.prt.snps | sed 's|NUCMER|NUCMER intersection|' > $RefPair12.intersect.snps
+
+# reference 2
+
+RefPair21=$Ref2Label"_"$Ref1Label
+OutDir21=${BaseDir}"/MUMmer/$RefPair21"
+
+if [[ ! -d $OutDir21 ]]; then
+    mkdir -p $OutDir21
+fi
+
+cd $OutDir21
+
+nucmer --prefix=$RefPair21 $RefDir/$Ref2Label.genome.fa $RefDir/$Ref1Label.genome.fa
+
+show-snps -ClrIT $RefPair21.delta > $RefPair21.prt.snps
+
+# intersection
+
+cd $BaseDir"/Scr"
+Rscript Marker.Intersect.R $Ref1Label $Ref2Label $BaseDir
+
+
+
