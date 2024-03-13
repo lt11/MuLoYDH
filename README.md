@@ -24,7 +24,7 @@ Given the two aforementioned inputs, MuLoYDH performs calling and annotation of:
 2. copy-number variants
 3. loss-of-heterozygosity (LOH) regions
 
-All the tools embedded in MuLoYDH are run automatically by the wrapper "RunMuLoYDH.sh".
+All the tools embedded in MuLoYDH are run automatically by the wrapper "MuLoYDH.V5.sh".
 
 The package contains three folders, the aforementioned "Rep" folder, the "Scr" folder (with the the wrapper and the scripts embedded in it), and the "Lib" folder (with addition scripts, templates and databases).
 
