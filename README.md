@@ -202,7 +202,7 @@ DepthRaw/: coverage statistics calculated from raw (with duplicates) bam files.
 
 Markers/: vcf files of samples and controls.
 
-## here we may want to add the content of the variant folder
+## TODO: add the content of the variant folder
 
 * CNVs
 
