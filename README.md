@@ -8,6 +8,28 @@ The Voyage of the Beagle, Charles Darwin
 
 This README describes the steps required to configure and run the MuLoYDH pipeline.
 
+### Workflow
+
+```mermaid
+flowchart LR
+    reads[/ Paired-end reads of hybrid clones /] --> mapping
+    parents[/ Parental assemblies and annotations /] --> markers
+    parents --> mapping
+    markers[[ Parental marker detection ]] --> genotyping
+    mapping[[ Standard and competitive mapping ]] --> genotyping
+    mapping --> cnv_call
+    mapping --> var_call
+    genotyping[[ Marker genotyping ]] --> loh_call
+    cnv_call[[ CNV calling ]] --> loh_call
+    loh_call[[ LOH detection ]] --> var_call
+    var_call[[ De novo variant calling ]] --> annotation
+    loh_call --> annotation
+    cnv_call --> annotation
+    annotation[[ Annotation and statistics ]] --> snv[/ De novo SNVs and indels /]
+    annotation --> cnv[/ Copy-number variants /]
+    annotation --> loh[/ LOH regions /]
+```
+
 ### What is this repository for? ###
 
 * Quick summary
@@ -180,6 +202,8 @@ DepthRaw/: coverage statistics calculated from raw (with duplicates) bam files.
 
 Markers/: vcf files of samples and controls.
 
+## here we may want to add the content of the variant folder
+
 * CNVs
 
 CNV/: configuration files for all the sample and controls (folder "Config"), mappability data (folder "Mappability") and results for both the assemblies (folder "Results").
@@ -225,6 +249,195 @@ InDel -> number of indels detected within the segment
 denInDel -> density of indels detected within the segment, calculated using "last" and "first" coordinates
 
 TI -> annotation for interstitial LOH segments (int) and terminal segments (ter); events detected also in the control (and thus subtracted) are annotated as "sub"
+
+## Detailed structure
+
+```mermaid
+flowchart TD
+    %% Input
+    reads[/ Hybrid paired-end reads<br>Exp/exp_id.R1.fastq.gz, exp_id.R2.fastq.gz /]
+    controls[/ Optional controls<br>ParentalZero, HybridZero /]
+    asm[/ Parental assemblies<br>Rep/Asm/strain_id.genome.fa /]
+    ann[/ Parental annotations<br>Rep/Ann: GFF, centromeres, subtelomeres /]
+    settings[/ Wrapper user settings<br>Ref1Label, Ref2Label, GenomesStructure, ReadLength /]
+ 
+    subgraph init[" PART I - REFERENCES INITIALISATION "]
+        copyref[[ copy assemblies and annotations to Ref ]]
+    end
+ 
+    settings --> copyref
+    asm --> copyref
+    ann --> copyref
+ 
+    subgraph mapping[" PART II - MAPPING "]
+        direction TB
+        subgraph refprep[" Reference Preparation "]
+            formatref[[ FormatRef.CompMap.R: concatenated parental multi-FASTA ]]
+            bwa_index[[ BWA index ]]
+            samt_index[[ samtools faidx ]]
+            formatref --> bwa_index
+            formatref --> samt_index
+        end
+ 
+        subgraph align[" Alignment "]
+            bwa_mem[[ BWA mem: standard mapping on Parent 1, Parent 2 ]]
+            bwa_comp[[ BWA mem: competitive mapping on Parent 1 + Parent 2 ]]
+            sort[[ samtools sort and index ]]
+            rmdup[[ samtools rmdup ]]
+            bwa_mem --> sort
+            bwa_comp --> sort
+            sort --> rmdup
+        end
+ 
+        subgraph qc[" Coverage and QC "]
+            lowmapq[[ LowMAPQ.sh: regions with MAPQ < 5 ]]
+            depth_raw[[ CalcDepth.Raw ]]
+            depth_ddp[[ CalcDepth.Ddp ]]
+            depthparser[[ DepthParser.R ]]
+            fastqc[[ QualCheck: FastQC ]]
+            depth_raw --> depthparser
+            depth_ddp --> depthparser
+        end
+    end
+ 
+    copyref --> formatref
+    reads --> bwa_mem
+    reads --> bwa_comp
+    controls --> bwa_mem
+    bwa_index --> bwa_mem
+    bwa_index --> bwa_comp
+    rmdup --> lowmapq
+    sort --> depth_raw
+    rmdup --> depth_ddp
+    reads --> fastqc
+ 
+    subgraph markers[" PART III-a - MARKERS "]
+        direction TB
+        subgraph nucmer_box[" Marker Detection - collinear or rearranged mode "]
+            nucmer12[[ NUCmer + show-snps: Parent 1 vs Parent 2 ]]
+            nucmer21[[ NUCmer + show-snps: Parent 2 vs Parent 1 ]]
+            intersect_mk[[ intersect of the two marker sets ]]
+            lmdr[[ TableLMDR.R: low-marker-density regions ]]
+            nucmer12 --> intersect_mk
+            nucmer21 --> intersect_mk
+            intersect_mk --> lmdr
+        end
+ 
+        subgraph genotype[" Marker Genotyping "]
+            samt_marker[[ bcftools mpileup + call at marker sites ]]
+            marker_parser[[ Marker.Parser.R ]]
+            samt_marker --> marker_parser
+        end
+    end
+ 
+    copyref --> nucmer12
+    copyref --> nucmer21
+    intersect_mk --> samt_marker
+    rmdup --> samt_marker
+ 
+    subgraph cnv[" PART III-b - COPY-NUMBER VARIANTS "]
+        direction TB
+        gem[[ GEM mappability ]]
+        prefreec[[ PreControl-FREEC: config files ]]
+        freec[[ Control-FREEC: GC and mappability normalised, no matched normal ]]
+        signif[[ AssessSignificance.R: Kolmogorov-Smirnov and Wilcoxon ]]
+        gem --> prefreec
+        prefreec --> freec
+        freec --> signif
+    end
+ 
+    copyref --> gem
+    rmdup --> prefreec
+ 
+    subgraph loh[" PART III-c - LOSS OF HETEROZYGOSITY "]
+        direction TB
+        subgraph loh_detect[" LOH Detection "]
+            clrs[[ ClrS.V8.R: filter markers, mask deletions, group LOH segments ]]
+            calc_marker[[ Calc.Marker.R ]]
+            clrs --> calc_marker
+        end
+ 
+        subgraph loh_plot[" Plots "]
+            baf[[ BAFplot.R: B-allele frequency ]]
+            markdist[[ Marker.Dist.R ]]
+            allseg[[ AllSeg.R ]]
+            heatmap[[ HeatMap.R: Parent 1, Parent 2 ]]
+            allseg --> heatmap
+        end
+ 
+        subgraph regions[" Region BED files "]
+            homohetero[[ MakeBed.HomoHeteroReg.R: homozygous and heterozygous regions ]]
+            lowmapq_bed[[ MakeBed.LowMAPQ.sh ]]
+        end
+ 
+        calc_marker --> baf
+        calc_marker --> markdist
+        calc_marker --> allseg
+        allseg --> homohetero
+        homohetero --> lowmapq_bed
+    end
+ 
+    marker_parser --> clrs
+    freec --> clrs
+    lmdr --> clrs
+    lowmapq --> lowmapq_bed
+ 
+    subgraph variants[" PART III-d - DE NOVO SMALL VARIANTS "]
+        direction TB
+        subgraph callers[" Calling on competitive mapping "]
+            samt_call[[ bcftools: ploidy 1 in heterozygous, 2 in LOH and low-MAPQ ]]
+            freebayes[[ FreeBayes: ploidy 1 in heterozygous, 2 in LOH and low-MAPQ ]]
+        end
+ 
+        subgraph filtering[" Filtering "]
+            isec[[ vcf-isec: keep variants called by both ]]
+            subpar[[ SubtractPar: remove parental variants ]]
+            subhyb[[ SubtractHyb: remove control or shared variants ]]
+            varparser[[ VariantParser.R: quality and marker-allele filters ]]
+            isec --> subpar
+            subpar --> subhyb
+            subhyb --> varparser
+        end
+ 
+        samt_call --> isec
+        freebayes --> isec
+    end
+ 
+    homohetero --> samt_call
+    homohetero --> freebayes
+    lowmapq_bed --> samt_call
+    lowmapq_bed --> freebayes
+    rmdup --> samt_call
+    rmdup --> freebayes
+    controls --> subhyb
+ 
+    subgraph annot[" PART IV - ANNOTATION AND STATISTICS "]
+        direction TB
+        ann_snv[[ Annotation.SNV.CompMap.R ]]
+        snpeff[[ SnpEff ]]
+        interterm[[ Annotation.InterTerm.V2.R: interstitial vs terminal LOH ]]
+        statloh[[ StatLOH.V1.R: subtract control LOH, exclude marker chromosome ]]
+        features[[ Annotation.Features.V2.R: genomic features at LOH ]]
+        ann_snv --> snpeff
+        interterm --> statloh
+        statloh --> features
+    end
+ 
+    varparser --> ann_snv
+    allseg --> interterm
+    ann_snv --> interterm
+ 
+    %% Outputs
+    out_var[/ Annotated de novo SNVs and indels /]
+    out_cnv[/ CNV/Results /]
+    out_loh[/ LOH/Summary<br>LOH.filtered.variants.txt, LOH.features.txt, plots /]
+ 
+    snpeff --> out_var
+    signif --> out_cnv
+    features --> out_loh
+    heatmap --> out_loh
+    baf --> out_loh
+```
 
 ### Who do I talk to? ###
 
